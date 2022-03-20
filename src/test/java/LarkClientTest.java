@@ -8,8 +8,8 @@ public class LarkClientTest {
     @Test
     public void testSendMsg(){
         try {
-            String appId = "cli_9e6b64b262b4900d";
-            String appSecret = "le41w0sV86eo1U6WjNG3HhSVIeAjv3HJ";
+            String appId = "xxx";
+            String appSecret = "xxx";
             LarkClient client = new LarkClient(appId, appSecret);
             String html = "{\n" +
                     "  \"config\": {\n" +
